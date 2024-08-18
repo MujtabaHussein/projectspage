@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .align-element {
+    @apply py-12 mx-auto px-4 max-w-7xl md:px-8 lg:px-12;
+  }
+  .btn {
+    @apply p-2 sm:px-6 sm:py-5 uppercase bg-amber-300 rounded-md text-2xl  text-purple-50  font-bold tracking-wide cursor-pointer;
+  }
+  .category-btn {
+    @apply p-1 bg-amber-400 rounded-md text-sky-50 tracking-wider text-2xl font-bold hover:bg-amber-500 duration-300 hover:text-white;
+  }
+}
