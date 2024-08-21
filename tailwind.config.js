@@ -4,15 +4,15 @@ export default {
   theme: {
     extend: {
       animation: {
-        bounce: '2s ease 0s infinite normal none running bounce',
+        bounce: 'Mybounce 2s ease infinite none ',
       },
       keyframes: {
-        bounce: {
+        Mybounce: {
           '0%': {
             transform: 'scale(1)',
           },
           '50%': {
-            transform: 'scale(1.05)',
+            transform: 'scale(1.1)',
           },
           '100%': {
             transform: 'scale(1)',
