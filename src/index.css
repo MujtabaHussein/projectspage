@@ -10,6 +10,6 @@
     @apply p-2 sm:px-6 sm:py-5 uppercase bg-amber-300 rounded-md text-2xl  text-purple-50  font-bold tracking-wide cursor-pointer;
   }
   .category-btn {
-    @apply p-1 bg-amber-400 rounded-md text-sky-50 tracking-wider text-2xl md:font-bold hover:bg-amber-500 duration-300 hover:text-white;
+    @apply p-2 bg-amber-400 rounded-md text-sky-50 tracking-wider text-xl sm:text-2xl sm:px-5 hover:bg-amber-500 duration-300 hover:text-white font-semibold sm:font-bold;
   }
 }

@@ -22,7 +22,7 @@ const Projects = () => {
         <div className=' border-2 border-amber-400 max-w-24 mx-auto'></div>
       </div>
       <div className='border-solid border-4 bg-amber-400'></div>
-      <div className=' grid grid-cols-2 gap-4  mb-8 md:flex md:flex-row md:gap-2 md:items-center md:justify-center  md:px-2'>
+      <div className=' grid grid-cols-2 gap-4  mb-8 md:flex md:flex-row md:gap-2 md:items-center md:justify-center  md:px-2 sm:pb-6'>
         {buttons.map(({ id, text }) => {
           return (
             <button
