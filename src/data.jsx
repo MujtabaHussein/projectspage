@@ -2,6 +2,13 @@ import { nanoid } from 'nanoid'
 export const projects = [
   {
     id: nanoid(),
+    title: 'reduxapp',
+    img: 'https://d33wubrfki0l68.cloudfront.net/66c5d322b0d0e4155b9de032/screenshot_2024-08-21-11-45-13-0000.webp',
+    url: 'https://main--myreduxapp.netlify.app/',
+    tag: 'ReactJS',
+  },
+  {
+    id: nanoid(),
     title: 'Unsplash image',
     img: 'https://d33wubrfki0l68.cloudfront.net/667c16ee7a41f00f0326c3bb/screenshot_2024-06-26-13-26-41-0000.webp',
     url: 'https://myomnifoodservice.netlify.app/',
