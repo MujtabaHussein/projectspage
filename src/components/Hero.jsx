@@ -19,7 +19,7 @@ const Hero = () => {
               mujtaba hussein
             </p>
           </p>
-          <form action='https://drive.google.com/file/d/1lwhYkWXjiInZztHnJn_df4tpXoJXScvk/view?usp=drive_link'>
+          <form action=''>
             <button className='btn mt-10 animate-bounce' type='submit'>
               my resumae
             </button>
